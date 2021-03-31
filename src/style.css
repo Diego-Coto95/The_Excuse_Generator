@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-image: radial-gradient(
+    circle,
+    #dae4ed,
+    #b3cbdb,
+    #89b3c7,
+    #5a9cb2,
+    #14869b
+  );
+}

@@ -13,7 +13,7 @@ window.onload = () => {
 };
 
 let generateExcuse = () => {
-  let subject = ["the dog", "my granma", "his turtle", "my bird"];
+  let subject = ["The dog", "My granma", "His turtle", "My bird"];
   let action = ["eat", "pissed", "crushed", "broked"];
   let when = [
     "before the class",
