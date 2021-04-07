@@ -6447,7 +6447,7 @@ var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../node_module
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
 // Module
-exports.push([module.i, "\n", ""]);
+exports.push([module.i, "body {\n  height: 100vh;\n  justify-content: center;\n  align-items: center;\n  display: flex;\n  width: 100%;\n  flex-direction: column;\n  background-image: radial-gradient(\n    circle,\n    #dae4ed,\n    #b3cbdb,\n    #89b3c7,\n    #5a9cb2,\n    #14869b\n  );\n}\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -28929,7 +28929,7 @@ window.onload = function () {
 };
 
 var generateExcuse = function generateExcuse() {
-  var subject = ["the dog", "my granma", "his turtle", "my bird"];
+  var subject = ["The dog", "My granma", "His turtle", "My bird"];
   var action = ["eat", "pissed", "crushed", "broked"];
   var when = ["before the class", "right in time", "when I finished", "during my lunch", "while I was praying"];
   var subjectIndex = Math.floor(Math.random() * subject.length);
